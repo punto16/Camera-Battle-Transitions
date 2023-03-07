@@ -1,5 +1,5 @@
 # Camera Battle Transitions Research
-This project was developed by [Luis González](https://wwwhttps://github.com/punto16) , a second year student of the [University degree Video Game Design and Development](<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>) in year 2022-2023.
+This project was developed by [Luis González](https://github.com/punto16) , a second year student of the [University degree Video Game Design and Development](<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>) in year 2022-2023.
 
 ## About this project
 The goal of this research is to produce a functional camera battle transition system in C++.
