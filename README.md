@@ -4,7 +4,7 @@ This project was developed by [Luis González](https://github.com/punto16) , a s
 ## About this project
 The goal of this research is to produce a functional camera battle transition system in C++.
 
-You can visit the official [Webpage of mine](<https://punto16.github.io/Camera-Battle-Transitions/>) //TODO hay que cambiar el link al mio!!
+You can visit the official [Webpage of mine](<https://punto16.github.io/Camera-Battle-Transitions/>)
 
 **Software used to develop this project**
 
