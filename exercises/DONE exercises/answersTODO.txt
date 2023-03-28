@@ -1,0 +1,102 @@
+TODO 1:
+
+	switch (scene_name)
+	{
+	case SCENES::SCENE1:
+
+		item = new Scene1();
+		
+		break;
+
+	case SCENES::SCENE2:
+		
+		item = new Scene2();
+		
+	break;
+	}
+
+	if (item != nullptr)
+	{
+		scenes.Add(item);
+	}
+
+TODO 2:
+	current_scene->CleanUp();
+
+	ListItem<Scene*>* item = scenes.start;
+
+	while (item != NULL)
+	{
+		if (item->data->scene_name == scene_name)
+		{
+			current_scene = item->data;
+		}
+		item = item->next;
+	}
+
+	if (current_scene != nullptr)
+	{
+		current_scene->Start();
+	}
+
+TODO 3:
+	if (!is_transitioning)
+	{
+		active_transition = new Cut(next_scene);
+
+		is_transitioning = true;
+	}
+
+TODO 4:
+	app->sceneManager->SwitchScene(next_scene);
+
+	app->transitionManager->DeleteActiveTransition();
+
+TODO 5a:
+	current_cutoff += GetCutoffRate(step_duration);
+	
+	switch (step)
+	{
+	case TRANSITION_STEP::ENTERING:
+
+		Entering();
+
+		break;
+
+	case TRANSITION_STEP::CHANGING:
+
+		Changing();
+
+		break;
+
+	case TRANSITION_STEP::EXITING:
+
+		Exiting();
+
+		break;
+	}
+
+	TranslateWipe();
+
+TODO 5b:
+	if (current_cutoff >= MAX_CUTOFF)
+	{
+		current_cutoff = MIN_CUTOFF;
+
+		step = TRANSITION_STEP::CHANGING;
+	}
+
+TODO 5c:
+	app->sceneManager->SwitchScene(next_scene);
+
+	step = TRANSITION_STEP::EXITING;
+
+TODO 5d:
+	if (current_cutoff >= MAX_CUTOFF)
+	{
+		current_cutoff = MIN_CUTOFF;
+		
+		step = TRANSITION_STEP::NONE;
+
+		app->transitionManager->DeleteActiveTransition();
+	}

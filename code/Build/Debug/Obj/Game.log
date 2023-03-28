@@ -1,7 +1,0 @@
-﻿E:\Apps random\Visual Studio\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: El directorio Output no termina con una barra diagonal final. Esta instancia de compilación agregará la barra diagonal porque es necesaria para que se pueda evaluar correctamente el directorio Output.
-  App.cpp
-C:\Users\asas3\source\repos\Camera-Battle-Transitions\code\Game\Source\App.cpp(171,43): warning C4244: '=': conversión de 'uint32' a 'float'; posible pérdida de datos
-C:\Users\asas3\source\repos\Camera-Battle-Transitions\code\Game\Source\App.cpp(190,14): warning C4244: 'argumento': conversión de 'float' a 'Uint32'; posible pérdida de datos
-C:\Users\asas3\source\repos\Camera-Battle-Transitions\code\Game\Source\App.cpp(192,9): warning C4244: '=': conversión de 'uint32' a 'float'; posible pérdida de datos
-  Game.vcxproj -> C:\Users\asas3\source\repos\Camera-Battle-Transitions\code\Build\Debug\Game.exe
-          1 archivo(s) copiado(s).

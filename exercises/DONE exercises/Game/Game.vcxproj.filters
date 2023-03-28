@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Window.cpp" />
+    <ClCompile Include="Source\Textures.cpp" />
+    <ClCompile Include="Source\Render.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Input.cpp" />
+    <ClCompile Include="Source\Audio.cpp" />
+    <ClCompile Include="Source\App.cpp" />
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\External\PugiXml\src\pugixml.cpp">
+      <Filter>External\PugiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene1.cpp">
+      <Filter>ResearchProject\Scenes\DifferentScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>ResearchProject\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>ResearchProject\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transition.cpp">
+      <Filter>ResearchProject\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransitionManager.cpp">
+      <Filter>ResearchProject\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AlternatingBars.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraToMouse.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Color.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cut.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dissolve.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ExpandingBars.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FadeToColour.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Slide.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Wipe.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ZoomToMouse.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ZoomToTexture.cpp">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene2.cpp">
+      <Filter>ResearchProject\Scenes\DifferentScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerfTimer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Window.h" />
+    <ClInclude Include="Source\Textures.h" />
+    <ClInclude Include="Source\Render.h" />
+    <ClInclude Include="Source\Module.h" />
+    <ClInclude Include="Source\Input.h" />
+    <ClInclude Include="Source\Audio.h" />
+    <ClInclude Include="Source\App.h" />
+    <ClInclude Include="Source\Defs.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DynArray.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\List.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Point.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SString.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\External\PugiXml\src\pugiconfig.hpp">
+      <Filter>External\PugiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\External\PugiXml\src\pugixml.hpp">
+      <Filter>External\PugiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Queue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene1.h">
+      <Filter>ResearchProject\Scenes\DifferentScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>ResearchProject\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>ResearchProject\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene2.h">
+      <Filter>ResearchProject\Scenes\DifferentScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transition.h">
+      <Filter>ResearchProject\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransitionManager.h">
+      <Filter>ResearchProject\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AlternatingBars.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bar.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraToMouse.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Color.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cut.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Dissolve.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ExpandingBars.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FadeToColour.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Slide.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Wipe.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ZoomToMouse.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ZoomToTexture.h">
+      <Filter>ResearchProject\Transitions\DifferentTransitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PerfTimer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{83a966c7-b4bb-4eff-9c2c-3ff3c7b55a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2cad778a-d356-48b0-9fee-587f1bbb187e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\PugiXml">
+      <UniqueIdentifier>{2855ff7f-53a1-413d-a75b-18b4ade921dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResearchProject">
+      <UniqueIdentifier>{6df8fc30-7866-4e9c-88e0-2eea51a3def0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResearchProject\Scenes">
+      <UniqueIdentifier>{f1e9f6a4-0e20-44c0-9367-31ef82686a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResearchProject\Transitions">
+      <UniqueIdentifier>{e9f15829-dfe1-443d-8174-e97b19e6ecf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResearchProject\Scenes\DifferentScenes">
+      <UniqueIdentifier>{0e85616e-f01a-4320-b834-a5dd290e45c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResearchProject\Transitions\DifferentTransitions">
+      <UniqueIdentifier>{c854745b-6dd8-4380-9eee-0e52554a7da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
